@@ -17,7 +17,7 @@ public:
 	Point(int xIn, int Yin) : x(xIn), y(Yin) {}
 	Point(int xIn, int yIn, int iterationIn) : x(xIn), y(yIn), iteration(iterationIn) {}
 	Point(int xIn, int yIn, int iterationIn, double indexin) : x(xIn), y(yIn), iteration(iterationIn), index(indexin) {}
-
+//bang bang
 	void setIteration(int iterationIn) { iteration = iterationIn; };
 	void setIndex(double indexIn) { index = indexIn; };
 	void setDeltaSubN(complex<double> DeltaSubNIn) { DeltaSubN = DeltaSubNIn; };
